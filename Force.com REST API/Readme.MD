@@ -1,5 +1,5 @@
 # Force.com (Salesforce) REST API
-### Break down the resource’s URI:
+### * Break if down the resource’s URI:
 * `/services/data` — Specifies that we’re making a REST API request
 * `/v36.0` — API version number
 * `/sobjects` — Specifies that we’re accessing a resource under the sObject grouping
