@@ -8,3 +8,6 @@
   * `/describe` — Action; in this case, a describe request
 
 * REST API supports both JSON and XML.
+
+## Resources
+* [Introducing Lightning Platform REST API](https://developer.salesforce.com/docs/atlas.en-us.212.0.api_rest.meta/api_rest/intro_what_is_rest_api.htm)
