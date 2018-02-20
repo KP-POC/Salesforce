@@ -14,3 +14,6 @@
 * [Getting Started with Salesforce REST in Java](https://www.jamesward.com/2016/01/26/quick-force-java-getting-started-with-salesforce-rest-in-java)
 * [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp)
 * [Workbench - HTTP Sender - a suite of tools for interacting with Salesforce APIs](https://workbench.developerforce.com/login.php)
+
+## Notes
+* Add a diagram for end to end integration = add to Dragon's diagram.
