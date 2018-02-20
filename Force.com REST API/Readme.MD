@@ -20,3 +20,4 @@
 
 #
 * Value-add for using Salesforce for the recruting process.  What would Salesforce bring to the table.
+* For this kind of use case use this product/pattern and here is why.
