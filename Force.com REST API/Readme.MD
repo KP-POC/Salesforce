@@ -17,3 +17,6 @@
 
 ## Notes
 * Add a diagram for end to end integration = add to Dragon's diagram.
+
+#
+* Value-add for using Salesforce for the recruting process.  What would Salesforce bring to the table.
