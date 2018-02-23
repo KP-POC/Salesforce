@@ -2,6 +2,7 @@
 
 ## Support
 * [Conga Composer](https://support.getconga.com/Conga_Composer)
+* [DS7](https://support.getconga.com/Conga_Composer/Customizing_Composer_with_Parameters/Composer_Parameter_Guide/DS7)
 
 ## OAuth
 OAuth (an abbreviation of open authorization) is an open protocol which allows secure authorization of desktop and web applications to access APIs. A commonly used analogy is the valet key to a car, which allows the car to be driven (perhaps a limited distance), but does not give access to the glove box or trunk. In the same way, OAuth allows users to authorize applications to access resources on their behalf via an access token, rather than by handing over their actual username and password.
