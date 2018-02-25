@@ -23,6 +23,7 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 * Append your security token to the end of your password. For example, if your password is mypassword and your security token is XXXXXXXXXX, enter mypasswordXXXXXXXXXX inside the <urn:password> element. 
 * SessionHeader. It’s going to contain the session ID we got from the login() response.
 * Change the text in the `<urn:sObjects>` tag to look like this: `<urn:sObjects xsi:type="urn1:Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">`. This adjustment specifies the correct record type using the XML instance schema declaration.
+* The endpoint URI looks something like this: `https://na30.salesforce.com/services/Soap/c/36.0`
 ## Pattern Value-add
 
 ## Resources
