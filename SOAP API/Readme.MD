@@ -5,6 +5,13 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 * The partner WSDL is optimized for use with many Salesforce orgs. It’s loosely typed, and it doesn’t change based on an org’s specific configuration.
 * Typically, if you’re writing an integration for a single Salesforce org, use the enterprise WSDL. For several orgs, use the partner WSDL.
 * Salesforce requires all connections to use TLS 1.1 or higher.
+### Breakdown of the endpoint URI (1).
+* `https://` — Specifies secure HTTP.
+* `login.salesforce.com` — Top-level domain for a login request.
+* `/services/Soap` — Specifies that we’re making a SOAP API request.
+* `/c—Specifies` that we’re using the enterprise WSDL. Use /u for the partner WSDL.
+* `/36.0` — API version number. 
+* `/0DF36000000LHZw` — Package version number.
 ## Use Case
 
 ## Implementation Steps
