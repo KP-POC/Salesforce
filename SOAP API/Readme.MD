@@ -7,6 +7,11 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 ## Use Case
 
 ## Implementation Steps
+*  from Setup, enter API in the Quick Find box, then select API. On the API WSDL page, click Generate Enterprise WSDL.
+* On the Generate Enterprise WSDL page, click Generate. 
+* Web Services Connector (WSC) consume the WSDL file. 
+* WSC create classes that enable you to make requests with SOAP API using common programming languages.
+* 
 
 ## Pattern Value-add
 
