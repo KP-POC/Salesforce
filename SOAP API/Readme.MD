@@ -21,7 +21,7 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 * WSC create classes that enable you to make requests with SOAP API using common programming languages.
 * The properties inside the LoginScopeHeader element concern the authentication of Self-Service and Customer Portal users. 
 * Append your security token to the end of your password. For example, if your password is mypassword and your security token is XXXXXXXXXX, enter mypasswordXXXXXXXXXX inside the <urn:password> element. 
-
+* SessionHeader. It’s going to contain the session ID we got from the login() response.
 ## Pattern Value-add
 
 ## Resources
