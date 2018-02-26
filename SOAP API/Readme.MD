@@ -29,6 +29,7 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 ## Pattern Value-add
 
 ## Resources
-
+* [Web Services Description Language (WSDL) 1.1](https://www.w3.org/TR/2001/NOTE-wsdl-20010315)
+* [SOAP API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm)
 ## Notes
 
