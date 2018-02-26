@@ -26,7 +26,10 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 * SessionHeader. It’s going to contain the session ID we got from the login() response.
 * Change the text in the `<urn:sObjects>` tag to look like this: `<urn:sObjects xsi:type="urn1:Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">`. This adjustment specifies the correct record type using the XML instance schema declaration.
 * The endpoint URI looks something like this: `https://na30.salesforce.com/services/Soap/c/36.0`
+
+## Limitations
 * [Implementation Considerations](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/implementation_considerations.htm)
+* <b>Do Not Design a Multi-Threaded Client Application</b>. Multi-threading is not allowed for a single client application using the SOAP-based API.
 ## Pattern Value-add
 
 ## Resources
