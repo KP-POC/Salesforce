@@ -31,6 +31,8 @@ Salesforce provides two SOAP API WSDLs for two different use cases. The enterpri
 * [Implementation Considerations](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/implementation_considerations.htm)
 * <b>Do Not Design a Multi-Threaded Client Application</b>. Multi-threading is not allowed for a single client application using the SOAP-based API.
 * <b>Minimize the size of the requests</b>. To minimize the request size, use compression on both the request and the response. Gzip is the most popular type of compression.
+* Minimize the number of requests. 
+* Use persistent connections. 
 ## Pattern Value-add
 
 ## Resources
