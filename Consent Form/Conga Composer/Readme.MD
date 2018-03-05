@@ -1,4 +1,6 @@
 # Conga Composer
+* [Configure the Conga Composer Connected App](https://support.getconga.com/Conga_Composer/Getting_Started_with_Composer/Configuring_Composer/011Configure_the_Conga_Composer_Connected_App)
+* 
 
 ## Support
 * [Conga Composer](https://support.getconga.com/Conga_Composer)
