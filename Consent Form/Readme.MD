@@ -10,3 +10,6 @@
 
 ## DocuSign
 * [DocuSign for Salesforce Administrator Guide v6.8](https://www.docusign.com/supportdocs/pdf/docusign-for-salesforce-administrator-guide.pdf)
+
+## Adobe Sign
+* https://secure.na2.echosign.com/account/createWidget
