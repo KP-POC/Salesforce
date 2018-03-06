@@ -13,3 +13,4 @@
 
 ## Adobe Sign
 * https://secure.na2.echosign.com/account/createWidget
+* https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/salesforce.html
