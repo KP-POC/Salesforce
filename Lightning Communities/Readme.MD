@@ -3,6 +3,12 @@
 * [Lightning Communities Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/communities_dev_customize_theme.htm)
 * [Lightning Communities Developer Guide pdf](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf/communities_dev.pdf)
 
+Home Page
+Login Page
+Disclaimer Page
+Disabled Fields
+
+
 # Napili
 Customer Service (Napili) template includes the following theme layouts and types:
 * The Inner type applies the Customer Service theme layout to all pages, except the login pages.
