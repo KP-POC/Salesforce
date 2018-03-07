@@ -7,6 +7,7 @@
 * [The Template Builder](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Composer_Template_Basics/03_The_Template_Builder)
 * [Template Example: Microsoft Word](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Word_Templates/Word_Template_Basics/04_Template_Example%3A_Microsoft_Word)
 * [Word Template Guide](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Word_Templates/Word_Template_Basics/00Word_Template_Guide)
+* [Guided Tour of Composer](https://support.getconga.com/Conga_Composer)
 ## Support
 * [Conga Composer](https://support.getconga.com/Conga_Composer)
 * [DS7](https://support.getconga.com/Conga_Composer/Customizing_Composer_with_Parameters/Composer_Parameter_Guide/DS7)
