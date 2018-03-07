@@ -5,6 +5,7 @@
 * [Usage Notes –
  Account Brief](https://files.mtstatic.com/site_7557/draft_1581/0?Expires=1520376909&Signature=QE1LDtx4SxBhPv0cn62pmF4zP3H~oZ-ap6vb9WRHICxSIPDDR9P~sj6ucuokwnz2dKnfmqJKJU9zyu6IMc7sAPje-8lO0O11givMFO8NvhgAgRlZ7AwJbhIia2N2e-0HsBbrfmx-fsDcOrt3LI8DhNy6NnMeRRrBtnQB8o5Jh0s_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 * [The Template Builder](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Composer_Template_Basics/03_The_Template_Builder)
+* [emplate Example: Microsoft Word](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Word_Templates/Word_Template_Basics/04_Template_Example%3A_Microsoft_Word)
 ## Support
 * [Conga Composer](https://support.getconga.com/Conga_Composer)
 * [DS7](https://support.getconga.com/Conga_Composer/Customizing_Composer_with_Parameters/Composer_Parameter_Guide/DS7)
