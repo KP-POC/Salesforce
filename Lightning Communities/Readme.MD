@@ -1,2 +1,8 @@
 # NOTES
 * https://developer.salesforce.com/forums/?id=9060G000000I6ErQAK 
+
+# Napili
+Customer Service (Napili) template includes the following theme layouts and types:
+* The Inner type applies the Customer Service theme layout to all pages, except the login pages.
+* The Login type applies Login Body Layout to the login pages.
+* The Home type isn’t applied to any pages. However, it’s ideal for applying a separate theme layout when you want your home page to look different from the inner pages in your community.
