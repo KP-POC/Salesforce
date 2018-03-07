@@ -1,5 +1,6 @@
 # NOTES
 * https://developer.salesforce.com/forums/?id=9060G000000I6ErQAK 
+* [Lightning Communities Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/communities_dev_customize_theme.htm)
 
 # Napili
 Customer Service (Napili) template includes the following theme layouts and types:
