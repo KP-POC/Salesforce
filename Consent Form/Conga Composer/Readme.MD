@@ -2,6 +2,8 @@
 * [Configure the Conga Composer Connected App](https://support.getconga.com/Conga_Composer/Getting_Started_with_Composer/Configuring_Composer/011Configure_the_Conga_Composer_Connected_App)
 * [Conga Template Library for Composer Release 8](https://support.getconga.com/Conga_Composer/Creating_Composer_Templates/Composer_Template_Basics/Conga_Template_Library_for_Composer_Release_8)
 * [Data Gathering Parameters](https://support.getconga.com/Conga_Composer/Customizing_Composer_with_Parameters/Composer_Parameter_Guide/Data_Gathering_Parameters)
+* [Usage Notes –
+ Account Brief](https://files.mtstatic.com/site_7557/draft_1581/0?Expires=1520376909&Signature=QE1LDtx4SxBhPv0cn62pmF4zP3H~oZ-ap6vb9WRHICxSIPDDR9P~sj6ucuokwnz2dKnfmqJKJU9zyu6IMc7sAPje-8lO0O11givMFO8NvhgAgRlZ7AwJbhIia2N2e-0HsBbrfmx-fsDcOrt3LI8DhNy6NnMeRRrBtnQB8o5Jh0s_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 ## Support
 * [Conga Composer](https://support.getconga.com/Conga_Composer)
 * [DS7](https://support.getconga.com/Conga_Composer/Customizing_Composer_with_Parameters/Composer_Parameter_Guide/DS7)
