@@ -8,6 +8,7 @@
 * Disclaimer Page
 * Disabled Fields
 * https://fhirapp.force.com/s/welcome
+* https://ctopoc--sitestudio.na78.force.com/sfsites/picasso/core/config/commeditor.jsp?exitURL=https%3A%2F%2Fctopoc.my.salesforce.com%2Fservlet%2Fnetworks%2Fswitch%3FnetworkId%3D0DB1N000000PMPg%26startURL%3D%252FcommunitySetup%252FcwApp.app%2523%252Fc%252Fhome
 
 
 # Napili
