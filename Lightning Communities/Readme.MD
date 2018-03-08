@@ -1,4 +1,5 @@
 # NOTES
+* [LIGHTNING DESIGN SYSTEM](https://www.lightningdesignsystem.com/)
 * [Lightning Components Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/component_library.htm)
 * [Lightning Components Library](https://developer.salesforce.com/docs/component-library)
 * https://developer.salesforce.com/forums/?id=9060G000000I6ErQAK 
