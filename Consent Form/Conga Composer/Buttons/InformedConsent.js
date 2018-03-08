@@ -1,5 +1,5 @@
 /apex/APXTConga4__Conga_Composer
-&serverUrl={!API.Partner_Server_URL_80}
+&serverUrl={!API.Partner_Server_URL_370}
 &Id={!Account.Id}
 &TemplateID=a0Lq0000006yPzw
 &DocuSignVisible=1
@@ -14,6 +14,16 @@
 
 &DS7=17
 &SF1=1
+
+
+/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_370}
+&Id={!Account.Id}
+
+&TemplateId=a0Lq0000006yPzw
+
+&DocuSignR1ID={!Account.OwnerId}
+
 
 /*
 Attached file = 00Pq0000007JZv2
