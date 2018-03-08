@@ -3,12 +3,12 @@
 &Id={!Account.Id}
 &TemplateID=a0Lq0000006yPzm
 &DocuSignVisible=1
-&DocuSignR1Id=001q000000lyGIo
+&DocuSignR1Id=003q000000hwnGU
 &DocuSignR1Type=Signer
 &DocuSingR1Role=Signer+1
 &DocuSignR1RoutingOrder=1
 
-&DocuSignR2TypeId=003q000000hwnGU
+&DocuSignR2TypeId=001q000000lyGIo
 &DocuSignR2Role=Signer+2
 &DocuSignRoutingOrder=2
 
