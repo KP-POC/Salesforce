@@ -1,4 +1,5 @@
 # Consent Form - Salesforce App
+* [Write-up](https://docs.google.com/document/d/1-PI7SHbjPoZv8CRVpAh4g2GGjmeizEmxyw737raYMZI/edit)
 
 ## Sample Consent Forms
 * [INFORMED CONSENT TO SURGERY OR SPECIAL PROCEDURE](http://www.wilshirecardiology.com/down/2-Vein_Consent.pdf)
