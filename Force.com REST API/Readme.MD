@@ -10,6 +10,8 @@
 * REST API supports both JSON and XML.
 
 ## Resources
+* [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp)
+* 
 * [Introducing Lightning Platform REST API](https://developer.salesforce.com/docs/atlas.en-us.212.0.api_rest.meta/api_rest/intro_what_is_rest_api.htm)
 * [Getting Started with Salesforce REST in Java](https://www.jamesward.com/2016/01/26/quick-force-java-getting-started-with-salesforce-rest-in-java)
 * [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp)
