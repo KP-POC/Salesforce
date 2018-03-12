@@ -16,4 +16,5 @@
 * [Using the UI Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/ui_input.htm)
 * [Actions and Events](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/events_and_actions.htm)
 * [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/js_client_side_controller.htm)
-* 
+* [Which Button Was Pressed?](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/js_cb_which_button_pressed.htm) 
+* [Enable Debug Mode for Lightning Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/aura_debug_mode.htm)
