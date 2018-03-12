@@ -2,6 +2,7 @@
 * Controller - is a resource in a component bundle that holds the action handlers for that component. And action handlers are just JavaScript functions with a particular function signature.  JavaScript objects that contain a map of name-value pairs, where the name is the name of the action handler and the value is a function definition.
 
 * A name–value pair, key–value pair, field–value pair or attribute–value pair is a fundamental data representation in computing systems and applications. Designers often desire an open-ended data structure that allows for future extension without modifying existing code or data. In such situations, all or part of the data model may be expressed as a collection of tuples `<attribute name, value>`; each element is an attribute–value pair. Depending on the particular application and the implementation chosen by programmers, attribute names may or may not be unique.
+* Action-handler = The combination of name-value pair and specific function signature.
 
 ## View-Controller-Controller-Model
 * Lightning Components is View-Controller-Controller-Model, or perhaps View-Controller-Controller-Database.
