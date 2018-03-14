@@ -4,6 +4,7 @@
 ## Table of Contents  
 * [DML Statements](#dml-statements--)
   * [Salesforce Developer Free Edition Signup](#salesforce-developer-free-edition-signup)
+* [Database Methods](#database-methods)
 
 ## DML Statements
 ```apex
@@ -88,10 +89,9 @@ System.assertEquals('Prefers to be contacted by email.',
                    [SELECT Description FROM Contact WHERE Id=:jane.Id].Description);
 
 ```
-```apex
+## Database Methods
 ```apex
 AccountHandler.insertNewAccount("Test");
-```
 ```
 ```apex
 Contact[] contactsDel = [SELECT Id FROM Contact WHERE LastName='Smith']; 
