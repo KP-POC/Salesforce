@@ -46,3 +46,6 @@ for(Contact con : conList) {
 update listToUpdate;
 
 ```
+```apex
+upsert sObjectList Account.Fields.MyExternalId;
+```
