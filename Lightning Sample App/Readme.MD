@@ -1,1 +1,4 @@
 
+```apex
+AccountHandler.insertNewAccount("Test");
+```
