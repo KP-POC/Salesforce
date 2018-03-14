@@ -2,7 +2,7 @@
 # APEX Basics
 
 ## Table of Contents  
-* [Awesome Salesforce](#awesome-salesforce--)
+* [DML Statements](#dml-statements--)
   * [Salesforce Developer Free Edition Signup](#salesforce-developer-free-edition-signup)
 
 ## DML Statements
