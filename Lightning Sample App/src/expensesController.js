@@ -16,7 +16,7 @@
         // Load expenses from Salesforce
     doInit: function(component, event, helper) {
         // Create the action
-        var action = component.get("c.getExpenses");
+        var action = component.get("c.getExpenses"); // remote method call
         // Add callback behavior for when response is received
         action.setCallback(this, function(response) {
             var state = response.getState();
