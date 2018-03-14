@@ -5,7 +5,7 @@
 * [DML Statements](#dml-statements--)
   * [](#salesforce-developer-free-edition-signup)
 * [Database Methods](#database-methods)
-  * [insert method with the allOrNone set to false](#insert-method-with-the-allOrNone-set-to-false)
+  * [`insert` method with the allOrNone set to `false`](#insert-method-with-the-allOrNone-set-to-false)
 
 ## DML Statements
 ```apex
