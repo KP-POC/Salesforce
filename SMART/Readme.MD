@@ -6,3 +6,4 @@
 * [Swagger Hub](https://app.swaggerhub.com/apis/VukDukic/TEST/1.0.0)
 * [Bluemix Console](https://app.swaggerhub.com/apis/VukDukic/TEST/1.0.0)
 * [Quick Force Node](https://github.com/jamesward/quick-force-node)
+* [Quick-force-Java](https://github.com/jamesward/quick-force-java)
