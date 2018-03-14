@@ -93,6 +93,7 @@ System.assertEquals('Prefers to be contacted by email.',
 ```apex
 AccountHandler.insertNewAccount("Test");
 ```
+### `insert` method with the allOrNone set to `false`
 ```apex
 Contact[] contactsDel = [SELECT Id FROM Contact WHERE LastName='Smith']; 
 delete contactsDel;
