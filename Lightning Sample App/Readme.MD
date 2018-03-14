@@ -1,8 +1,10 @@
 
 # APEX Basics
-```apex
-AccountHandler.insertNewAccount("Test");
-```
+
+## Table of Contents  
+* [Awesome Salesforce](#awesome-salesforce--)
+  * [Salesforce Developer Free Edition Signup](#salesforce-developer-free-edition-signup)
+
 ## DML Statements
 ```apex
 // Create the account sObject 
@@ -85,6 +87,11 @@ upsert jane2 Contact.fields.Email;
 System.assertEquals('Prefers to be contacted by email.',
                    [SELECT Description FROM Contact WHERE Id=:jane.Id].Description);
 
+```
+```apex
+```apex
+AccountHandler.insertNewAccount("Test");
+```
 ```
 ```apex
 Contact[] contactsDel = [SELECT Id FROM Contact WHERE LastName='Smith']; 
