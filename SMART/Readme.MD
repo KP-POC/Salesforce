@@ -5,3 +5,4 @@
 * [Building a Web Portal with Salesforce.com Data](https://developer.secure.force.com/cookbook/recipe/building-a-web-portal-with-salesforce-com-data)
 * [Swagger Hub](https://app.swaggerhub.com/apis/VukDukic/TEST/1.0.0)
 * [Bluemix Console](https://app.swaggerhub.com/apis/VukDukic/TEST/1.0.0)
+* [Quick Force Node](https://github.com/jamesward/quick-force-node)
