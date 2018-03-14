@@ -3,7 +3,7 @@
 ```apex
 AccountHandler.insertNewAccount("Test");
 ```
-## 
+## DML Statements
 ```apex
 // Create the account sObject 
 Account acct = new Account(Name='Acme', Phone='(415)555-1212', NumberOfEmployees=100);
