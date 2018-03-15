@@ -10,5 +10,5 @@
 * [Lightning Button](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/aura_compref_lightning_button.htm)
 * [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/js_client_side_controller.htm)
 
-## Trilhead
+## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
