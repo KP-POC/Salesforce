@@ -2,7 +2,7 @@
   gotoURL: function(component, event, helper) {
       helper.gotoURL(component);
   },
-  gotoURL: function(component, event, helper) {
+  navigate: function(component, event, helper) {
       helper.navigate(component);
   }    
 )}
