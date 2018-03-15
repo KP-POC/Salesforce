@@ -12,3 +12,6 @@
 
 ## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
+
+## Login Management
+* [Customize Login, Self-Registration, and Password Management for Your Community](https://help.salesforce.com/articleView?id=networks_customize_login.htm&type=5)
