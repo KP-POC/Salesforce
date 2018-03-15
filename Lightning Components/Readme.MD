@@ -14,7 +14,13 @@ Controller functions, also known as actions, handle user interactions.  This com
   <ui:button label="Go" press="{!c.change}"/>
 </aura:component>
 ```
-
+The Controller action:
+```javascript
+change: function(cmp, event, handler) {
+    cmp.set("v.myText", "new string");
+    helper.doSomething(cmp);
+}
+```
 
 ## View-Controller-Controller-Model
 * Lightning Components is View-Controller-Controller-Model, or perhaps View-Controller-Controller-Database.
