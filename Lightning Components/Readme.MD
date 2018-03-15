@@ -25,7 +25,12 @@ change: function(cmp, event, handler) {
     helper.doSomething(cmp);
 }
 ```
-
+The helper resource takes the following form:
+```javascript
+doSomething : function(cmp, myObj) {
+  // Do something else here
+}
+```
 ## View-Controller-Controller-Model
 * Lightning Components is View-Controller-Controller-Model, or perhaps View-Controller-Controller-Database.
 
