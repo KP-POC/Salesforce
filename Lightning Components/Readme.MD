@@ -4,6 +4,18 @@
 * A name–value pair, key–value pair, field–value pair or attribute–value pair is a fundamental data representation in computing systems and applications. Designers often desire an open-ended data structure that allows for future extension without modifying existing code or data. In such situations, all or part of the data model may be expressed as a collection of tuples `<attribute name, value>`; each element is an attribute–value pair. Depending on the particular application and the implementation chosen by programmers, attribute names may or may not be unique.
 * Action-handler = The combination of name-value pair and specific function signature.
 
+## Client-Side Controllers
+Controller functions, also known as actions, handle user interactions.  This component displays a string and a button, which when pressed updates the string value.
+
+```html
+<aura:component>
+  <aura:attribute name="myText" type="String" default="A string waiting to change"/>
+    {!v.myText}
+  <ui:button label="Go" press="{!c.change}"/>
+</aura:component>
+```
+
+
 ## View-Controller-Controller-Model
 * Lightning Components is View-Controller-Controller-Model, or perhaps View-Controller-Controller-Database.
 
