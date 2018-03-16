@@ -1,0 +1,5 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="isredirect" type="Boolean" description="Indicates that the new URL should replace the current one in the navigation history. Defaults to false."/>
+    <aura:atrribute name="url" type="String" description="The URL of the target."/>
+    <lightning:button variant="brand" label="Submit" onclick="{! c.gotoURL }" />
+</aura:component>
