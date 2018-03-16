@@ -1,0 +1,11 @@
+    <aura:attribute name="startUrl" type="String" required="false" description="The url you go to after a successful login" />
+     <aura:registerevent name="sitePropagatedStartUrl" type="c:setStartUrl"/>
+    <aura:dependency resource="c:setStartUrl" type="EVENT"/>
+    <aura:handler event="c:setStartUrl" action="{!c.setStartUrl}"/>
+
+setStartUrl: function (component, event, helpler) {
+        var startUrl = event.getParam('startURL');
+        if(startUrl) {
+            component.set("v.startUrl", startUrl);
+        }
+    },
