@@ -1,4 +1,6 @@
 # Integration Notes
+* [Lightning Communities
+Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf/communities_dev.pdf)
 * [Configure Drag-and-Drop Components for Community Builder](https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/components_config_for_builder.htm?search_text=design:attribute)
 * [Create Custom Theme Layout Components for Communities](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_builder_theme_layout.htm)
 * [Introduction to the Force.com Web Services Connector
