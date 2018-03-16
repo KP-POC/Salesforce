@@ -10,3 +10,8 @@
     </div>
 </div>
 </aura:component>
+/*
+This code uses a <lightning:ButtonIcon> component and includes a click handler. 
+    It also includes an attribute called searchText to contain the search text and uses a <ui:inputText> 
+    component (instead of <input>) to bind the values.
+*/
