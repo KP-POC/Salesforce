@@ -1,0 +1,3 @@
+<design:component label="Submit">
+    <design:attribute name="urlEvent" label="Submit" />
+</design:component>
