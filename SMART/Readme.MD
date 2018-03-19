@@ -26,3 +26,4 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 * User permissions needed: Manage External Users OR Edit Self-Service Users
 * When creating customer users, the account that the new contact is associated with must have an account owner that is assigned a role.
 * The Edit Self-Service Users permission is on by default for standard users.
+* When you enable a contact record as an external user, you can assign a Partner Community, Customer Community, or Customer Community Plus license to them, depending on your business relationship.
