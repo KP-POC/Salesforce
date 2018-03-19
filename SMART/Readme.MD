@@ -20,3 +20,6 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 
 ## Login Management
 * [Customize Login, Self-Registration, and Password Management for Your Community](https://help.salesforce.com/articleView?id=networks_customize_login.htm&type=5)
+
+## External Users
+* To allow an external user to access your community, add the user to an account as a contact record. Then enable the contact record as a customer user or partner user, depending on your business relationship.
