@@ -23,3 +23,6 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 
 ## External Users
 * To allow an external user to access your community, add the user to an account as a contact record. Then enable the contact record as a customer user or partner user, depending on your business relationship.
+* User permissions needed: Manage External Users OR Edit Self-Service Users
+* When creating customer users, the account that the new contact is associated with must have an account owner that is assigned a role.
+* The Edit Self-Service Users permission is on by default for standard users.
