@@ -1,0 +1,4 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,forceCommunity:themeLayout" access="global" >    
+    <aura:attribute name="urlEvent" type="String" required="false" description="The url you go to after a successful login" />
+    <lightning:button variant="brand" label="Submit" onclick="{! c.gotoURL }" />
+</aura:component>
