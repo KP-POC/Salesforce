@@ -1,4 +1,7 @@
-# Integration Notes
+## URLs
+https://cfsandbox-fhir-app.cs21.force.com/s/login/SelfRegister
+
+## Integration Notes
 * [Lightning Communities
 Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf/communities_dev.pdf)
 * [Configure Drag-and-Drop Components for Community Builder](https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/components_config_for_builder.htm?search_text=design:attribute)
