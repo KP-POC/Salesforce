@@ -16,6 +16,11 @@
         action.setCallback(this, function(response) {
             this.doLayout(response, component);
         });
+        action.setParams({
+            "recordId": recID,
+            "objectType": objectType,
+            "searchQuery": searchTerm
+        });
         $A.enqueueAction(action);
     },
     doLayout: function(response, component) {
