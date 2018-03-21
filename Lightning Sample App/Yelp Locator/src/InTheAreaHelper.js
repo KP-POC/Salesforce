@@ -2,6 +2,7 @@
     getLocalList: function(component) {
         var recID = component.get("v.recordId");
         var location = component.get("v.location");        
+        var objectType = component.get("v.sObjectName");
         var searchTerm = component.find("searchTerm").get("v.value");
         if (searchTerm == null) {
             searchTerm = component.get("v.defaultSearch");
