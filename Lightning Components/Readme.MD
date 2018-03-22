@@ -2,6 +2,7 @@
 1. [Client-Side Controllers](#client-side-controllers)
 2. [View-Controller-Controller-Model](#view-controller-controller-model)
 3. [Invoke An Action on Component Initialization](#invoke-an-action-on-component-initialization)
+4. [Client-Side Controllers](#client-side-controllers)
 
 # Lightning Components
 * Controller - is a resource in a component bundle that holds the action handlers for that component. And action handlers are just JavaScript functions with a particular function signature.  JavaScript objects that contain a map of name-value pairs, where the name is the name of the action handler and the value is a function definition.
@@ -42,6 +43,9 @@ doSomething : function(cmp, myObj) {
 ## Invoke An Action on Component Initialization
 * Add the `init` handler and handle the event in the `doInit` action in your client-side controller.
 * `<aura:handler name="init" value="{!this}" action="{!c.doInit}" />`
+
+## Client-Side Controllers
+
 ## Resources
 * [Working with UI Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/ui_overview.htm)
 * [Using the UI Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/ui_input.htm)
