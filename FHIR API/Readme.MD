@@ -8,4 +8,4 @@ $.getJSON(baseUrl + patientSearchString, function(data,error) {
 ```
 
 ## Resources
-* (Patient + Practitioner)[https://open.epic.com/Clinical/FHIR?whereTo=Patient]
+* [Patient + Practitioner](https://open.epic.com/Clinical/FHIR?whereTo=Patient)
