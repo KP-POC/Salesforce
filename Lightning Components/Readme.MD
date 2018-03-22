@@ -38,6 +38,9 @@ doSomething : function(cmp, myObj) {
 
 * In traditional MVC, the model is a programmatic abstraction (usually a class) between the underlying data storage (usually a relational database) and the rest of the application. In Lightning Components, there’s no Apex class that directly stands in between `@AuraEnabled` controller methods and DML operations. But then again, sObjects are already an abstraction between your Apex code and the underlying storage layer. You can add calculation fields, validation logic, and even add fully programmatic behavior in the form of triggers. 
 
+## Invoke An Action on Component Initialization
+* Add the `init` handler and handle the event in the `doInit` action in your client-side controller.
+* `<aura:handler name="init" value="{!this}" action="{!c.doInit}" />`
 ## Resources
 * [Working with UI Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/ui_overview.htm)
 * [Using the UI Components](https://developer.salesforce.com/docs/atlas.en-us.212.0.lightning.meta/lightning/ui_input.htm)
