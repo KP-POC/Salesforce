@@ -6,3 +6,6 @@ $.getJSON(baseUrl + patientSearchString, function(data,error) {
 		console.log(data);
 		});
 ```
+
+## Resources
+* (Patient + Practitioner)[https://open.epic.com/Clinical/FHIR?whereTo=Patient]
