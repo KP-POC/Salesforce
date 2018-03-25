@@ -11,5 +11,13 @@ $.getJSON(baseUrl + patientSearchString, function(data,error) {
 		});
 ```
 
+
+## Create an APEX REST Service
+* Create an Apex REST class that contains methods for each HTTP method.
+* Invoke a custom Apex REST method with an endpoint.
+* Pass data to a custom Apex REST method by sending a request body in JSON format.
+* Write a test method for an Apex REST method and set properties in a test REST request.
+* Write a test method for an Apex REST method by calling the method with parameter values.
+
 ## Resources
 * [Patient + Practitioner](https://open.epic.com/Clinical/FHIR?whereTo=Patient)
