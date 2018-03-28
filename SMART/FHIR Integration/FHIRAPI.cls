@@ -1,5 +1,5 @@
 public with sharing class FHIRAPI {
-	public static String BASE_URL = 'https://api.stackexchange.com/2.2/';
+	public static String BASE_URL = 'https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/';
 
 	//Method to perform a callout and return an httpResponse
 	public static httpResponse callout(String httpMethod, String endpoint, String body){
@@ -32,9 +32,9 @@ public with sharing class FHIRAPI {
 		return (responseResource)JSON.deserialize(res.getBody(),responseResource.class);
 	}
 
-/********************* Apex Inner Classes to represent StackExchange objects ***********************/
+/********************* Apex Inner Classes to represent FHIR objects ***********************/
 
-	//Outermost class included in the response from StackExchange
+	//Outermost class included in the response from FHIR
 	public class responseResource {
 		public Integer error_id {get;set;}
 		public String error_message {get;set;}
@@ -45,7 +45,7 @@ public with sharing class FHIRAPI {
 		public Integer quote_remaining {get;set;}
 	}
 
-	//Class to represent a question posted on StackExchange
+	//Class to represent a question posted on FHIR
 	public class questionResource {
 		public List<String> tags {get;set;}
 		public userResource owner {get;set;}
