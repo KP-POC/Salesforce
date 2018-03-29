@@ -1,0 +1,9 @@
+curl 
+-X POST 
+-H "Authorization: Bearer <TOKEN>" 
+-H "Cache-Control: no-cache" 
+-H "Content-Type: multipart/form-data" 
+-F "type=text-intent" 
+-F "path=http://einstein.ai/text/case_routing_intent.csv" 
+https://api.einstein.ai/v2/language/datasets/upload
+
