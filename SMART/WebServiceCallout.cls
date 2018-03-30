@@ -21,7 +21,7 @@ public class WebServiceCallout {
 
     }
 
-    // run WebServiceCallout.testMe(); from Execute Anonymous to test
+    // run WebServiceCallout.sendNotification('Sarajevo', 'Beograd'); from Execute Anonymous to test
     
 
 }
