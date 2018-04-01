@@ -4,6 +4,7 @@ https://cfsandbox-fhir-app.cs21.force.com/s/login/SelfRegister
 ## FHIR
 * [Patient + Practitioner](https://open.epic.com/Clinical/FHIR)
 * [FHIR Overview - Developers](http://www.hl7.org/FHIR/overview-dev.html)
+* [Resource Patient - Content](http://www.hl7.org/FHIR/patient.html)
 
 ## Integration Notes
 * [Lightning Communities
