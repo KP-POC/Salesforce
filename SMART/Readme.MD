@@ -23,6 +23,7 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 * [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/js_client_side_controller.htm)
 * [Cannot Read property setparams in lighting components](https://developer.salesforce.com/forums/?id=9060G000000I4duQAC)
 * [JSON2Apex](https://json2apex.herokuapp.com/)
+* [Force.com REST API sObject Resources](https://developer.salesforce.com/docs/api-explorer/sobject/AcceptedEventRelation)
 
 ## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
