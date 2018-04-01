@@ -24,6 +24,9 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 * [Cannot Read property setparams in lighting components](https://developer.salesforce.com/forums/?id=9060G000000I4duQAC)
 * [JSON2Apex](https://json2apex.herokuapp.com/)
 * [Force.com REST API sObject Resources](https://developer.salesforce.com/docs/api-explorer/sobject/AcceptedEventRelation)
+* [JEFF DOUGLAS
+Home  About  RV Palooza  
+RESTFUL WEB SERVICE CALLOUT USING POST WITH SALESFORCE.COM](http://blog.jeffdouglas.com/2009/03/16/restful-web-service-callout-using-post/)
 
 ## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
