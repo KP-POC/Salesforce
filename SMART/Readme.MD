@@ -27,6 +27,7 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 * [RESTFUL WEB SERVICE CALLOUT USING POST WITH SALESFORCE.COM](http://blog.jeffdouglas.com/2009/03/16/restful-web-service-callout-using-post/)
 * [Apex Web Services and Callouts](https://developer.salesforce.com/page/Apex_Web_Services_and_Callouts)
 * [Google Data API Toolkit](https://developer.salesforce.com/page/Google_Data_API_Toolkit)
+* [Introduction to Callouts in Apex Youtube](https://www.youtube.com/watch?v=LSnfXHlSJEI)
 
 ## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
