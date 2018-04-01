@@ -26,6 +26,7 @@ Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf
 * [Force.com REST API sObject Resources](https://developer.salesforce.com/docs/api-explorer/sobject/AcceptedEventRelation)
 * [RESTFUL WEB SERVICE CALLOUT USING POST WITH SALESFORCE.COM](http://blog.jeffdouglas.com/2009/03/16/restful-web-service-callout-using-post/)
 * [Apex Web Services and Callouts](https://developer.salesforce.com/page/Apex_Web_Services_and_Callouts)
+* [Google Data API Toolkit](https://developer.salesforce.com/page/Google_Data_API_Toolkit)
 
 ## Trailhead
 * [Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_2)
