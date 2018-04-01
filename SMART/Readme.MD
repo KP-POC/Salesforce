@@ -1,6 +1,9 @@
 ## URLs
 https://cfsandbox-fhir-app.cs21.force.com/s/login/SelfRegister
 
+## FHIR
+* [Patient + Practitioner](https://open.epic.com/Clinical/FHIR)
+
 ## Integration Notes
 * [Lightning Communities
 Developer Guide](https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf/communities_dev.pdf)
