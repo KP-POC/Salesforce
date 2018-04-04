@@ -8,4 +8,4 @@ setStartUrl: function (component, event, helpler) {
         if(startUrl) {
             component.set("v.startUrl", startUrl);
         }
-    },
+    }
