@@ -14,7 +14,7 @@ $.getJSON(baseUrl + patientSearchString, function(data,error) {
 * https://developer.salesforce.com/forums/?id=9060G000000BdnnQAC
 * [Parsing a JSON Response from a Web Service Callout](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_json_jsonparser.htm)
 * [Calling a Server-Side Action](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_actions_call.htm)
-* 
+* [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/js_client_side_controller.htm)
 
 ## Create an APEX REST Service
 * Create an Apex REST class that contains methods for each HTTP method.
