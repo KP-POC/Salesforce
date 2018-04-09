@@ -21,7 +21,7 @@ due to business reasons. In order to do continuous deployment, one must be doing
 Scratch orgs are ephemeral orgs that can be trivially created and destroyed with the force:org:create and
 force:org:delete commands.
 
-## Salesforce DevOps Key Factors
+### Salesforce DevOps Key Factors
 * Code Check-in
 * Unit Testing
 * Test Automation
