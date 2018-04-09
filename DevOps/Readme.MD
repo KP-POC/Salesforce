@@ -60,18 +60,12 @@ Salesforce.com projects are equipped with two technologies to support deployment
 Production org is a Salesforce instance available to all Salesforce users and it is a live real-time production environment. 
 
 #### Deploying Apex
-You CANNOT develop Apex in your Salesforce production org. Your development work is done in either a sandbox or a Developer Edition org.
+You CANNOT develop Apex in your Salesforce production org. Your development work is done in either a sandbox or a Developer Edition org. Any deployment of Apex is limited to 5,000 code units of classes and triggers.
 You can deploy Apex using:
 * [Change Sets](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_changesets.htm)
-* [The Force.com IDE]()
-* [The Ant Migration Tool]()
-* [SOAP API]()
-Any deployment of Apex is limited to 5,000 code units of classes and triggers.
-
-* Using Change Sets To Deploy Apex
-* Using the Force.com IDE to Deploy Apex
-* Using the Ant Migration Tool
-* Using SOAP API to Deploy Apex
+* [The Force.com IDE](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ide.htm)
+* [The Ant Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htmhttps://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm)
+* [SOAP API](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_additional.htm)
 
 
 ### Sandbox
