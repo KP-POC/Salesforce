@@ -20,3 +20,15 @@ due to business reasons. In order to do continuous deployment, one must be doing
 ### Scratch Orgs
 Scratch orgs are ephemeral orgs that can be trivially created and destroyed with the force:org:create and
 force:org:delete commands.
+
+## Salesforce DevOps Key Factors
+* Code Check-in
+* Unit Testing
+* Test Automation
+* Track Changes
+* Compare Orgs
+* Rollbacks
+* Package Using
+* Manage SF Governor Limits
+* Support for Data and Metadata Migration
+* On-premises/Cloud
