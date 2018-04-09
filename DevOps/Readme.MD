@@ -16,3 +16,7 @@ be reliably released at any time. It aims at building, testing, and releasing so
 Continuous Deployment means that every change is automatically deployed to production. Continuous Delivery
 means that the team ensures every change can be deployed to production but may choose not to do it, usually
 due to business reasons. In order to do continuous deployment, one must be doing continuous delivery.
+
+### Scratch Orgs
+Scratch orgs are ephemeral orgs that can be trivially created and destroyed with the force:org:create and
+force:org:delete commands.
