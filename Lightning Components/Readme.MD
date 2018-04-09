@@ -14,6 +14,19 @@ You can use Lightning Components to create stand-alone apps that are hosted on S
 
 Build custom user interfaces using your own Lightning components, or those you install from AppExchange, for desktop and mobile devices.
 
+## Where You Can Use Lightning Components
+* [Add Apps to the Lightning Experience App Launcher](https://trailhead.salesforce.com/modules/lex_dev_lc_basics/units/lex_dev_lc_basics_intro)
+* Add Apps to Lightning Experience and Salesforce App Navigation
+* Create Drag-and-Drop Components for Lightning App Builder and Community Builder
+* Add Lightning Components to Lightning Pages
+* Add Lightning Components to Lightning Experience Record Pages
+* Launch a Lightning Component as a Quick Action
+* Override Standard Actions with Lightning Components
+* Create Stand-Alone Apps
+* Run Lightning Components Apps Inside Visualforce Pages
+* Run Lightning Components Apps on Other Platforms with Lightning Out
+* Customize Flow Screens
+* [Lightning Apps Developer Center](https://developer.salesforce.com/devcenter/lightning)
 
 ## Steps to Configure Lightning Framework
 To use Lightning Components, the Salesforce org needs to have a custom domain configured using My Domain.  My Domain is a way to use Salesforce from a customized URL, rather than a generic Salesforce instance URL.  Once you have a custom domain, you’ll use Salesforce at https://yourDomain.my.salesforce.com/, which is reserved exclusively for your org’s use.
