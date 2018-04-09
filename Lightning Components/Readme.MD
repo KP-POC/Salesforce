@@ -3,6 +3,11 @@
 2. [View-Controller-Controller-Model](#view-controller-controller-model)
 3. [Invoke An Action on Component Initialization](#invoke-an-action-on-component-initialization)
 
+
+Lightning Components is a UI framework for developing web apps for mobile and desktop devices. It’s a framework for building single-page applications with dynamic, responsive user interfaces for Lightning Platform apps. It uses JavaScript on the client side and Apex on the server side.
+
+
+
 # Lightning Components
 * Controller - is a resource in a component bundle that holds the action handlers for that component. And action handlers are just JavaScript functions with a particular function signature.  JavaScript objects that contain a map of name-value pairs, where the name is the name of the action handler and the value is a function definition.
 
