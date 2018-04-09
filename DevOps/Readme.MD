@@ -54,27 +54,51 @@ Salesforce.com projects are equipped with two technologies to support deployment
 | Hosting Platform | AWS, Bluemix | 
 
 
-### Salesforce Org
+## Salesforce Org
 
-#### Production
+### Production
+Production org is a Salesforce instance available to all Salesforce users and it is a live real-time production environment. 
 
-#### Sandbox
+#### Deploying Apex
+You CANNOT develop Apex in your Salesforce production org. Your development work is done in either a sandbox or a Developer Edition org.
+You can deploy Apex using:
+* [Change Sets](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_changesets.htm)
+The Force.com IDE
+The Ant Migration Tool
+SOAP API
+Any deployment of Apex is limited to 5,000 code units of classes and triggers.
+
+Using Change Sets To Deploy Apex
+Using the Force.com IDE to Deploy Apex
+Using the Ant Migration Tool
+Using SOAP API to Deploy Apex
+
+
+### Sandbox
 Sandboxes are special organizations that are used to test changes or new apps without risking damage to your production data or configuration. Sandbox Templates are used to create new Sandboxes containing specific data sets.
-##### Developer
+
+#### Deploying Apex to a Sandbox Organization
+Sandboxes create copies of your Salesforce org in separate environments. Sandboxes are isolated from your production org, so operations that you perform in your sandboxes don’t affect your production org.
+
+You can also use the deploy() Metadata API call to deploy your Apex from a developer organization to a sandbox organization.
+
+
+
+#### Developer
 * Refresh Interval: 1 day
 * Capacity: 200 MB
 * Includes:
   * Configuration
   * Apex & Metadat
   * All users which are in Produciton Org
-##### Developer Pro
+#### Developer Pro
 * Refresh Interval: 1 day
 * Capacity: 1 GB
 * Includes:
   * Configuration
   * Apex & Metadat
   * All users which are in Produciton Org
-##### Partial Copy
+#### Partial Copy
 * Refresh Interval:  5 Days
 * Capacity:  5 GB
 * Includes:
@@ -85,7 +109,16 @@ Sandboxes are special organizations that are used to test changes or new apps wi
   * Sandbox Template Support
 
 
-
+### Writing Tests
+Before you deploy Apex, the following must be true:
+* At least 75% of your Apex code must be covered by unit tests, and all of those tests must complete successfully.
+Note the following.
+* When deploying Apex to a production organization, each unit test in your organization namespace is executed by default.
+* Calls to System.debug are not counted as part of Apex code coverage.
+* Test methods and test classes are not counted as part of Apex code coverage.
+* 75% or more of your code should be covered by unit tests.
+* Every trigger must have some test coverage.
+* All classes and triggers must compile successfully.
 
 
 
@@ -100,3 +133,7 @@ Sandboxes are special organizations that are used to test changes or new apps wi
 
 https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB
 https://apiservice-bus-dev.kp.org:2005/service/ptnt_care/ptnt_care_sup/KPHC/KPHCLSPApp/v1?esb-region=NCAL&esb-envlbl=dev3
+
+
+
+
