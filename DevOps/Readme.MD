@@ -41,14 +41,14 @@ Salesforce.com projects are equipped with two technologies to support deployment
 * Salesforce Metadata API - which allows specialized ANT scripts to both extract and deploy raw components in the form of XML files.
 
 ### Recommended DevOps Stack for Saleforce
-| Capabilities        | Stack           | Support available for Other Tools  |
-| ------------- |:-------------:| -----:|
-| Release & Deployment | Release Management App | |
-| Deployment      | ANT, Change Set, Metadata API |   $12 |
-| Test Automation | are neat      |    $1 |
-| Code Quality Check |
-| Collaboration & Review |
-| Code Repository | 
-| Orchestration | 
-| Monitoring Tool | 
-| Hosting Platform | AWS, Bluemix
+| Capabilities        | Stack           | 
+| ------------- |:-------------:| 
+| Release & Deployment | Release Management App | 
+| Deployment      | ANT, Change Set, Metadata API | 
+| Test Automation | Selenium Automation | 
+| Code Quality Check | Novasuite |
+| Collaboration & Review | Gerrit |
+| Code Repository | Git |
+| Orchestration | Jenkins | 
+| Monitoring Tool | Sensu | 
+| Hosting Platform | AWS, Bluemix | 
