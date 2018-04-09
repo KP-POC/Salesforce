@@ -4,7 +4,24 @@
 3. [Invoke An Action on Component Initialization](#invoke-an-action-on-component-initialization)
 
 
+# Lightning Framework
+
 Lightning Components is a UI framework for developing web apps for mobile and desktop devices. It’s a framework for building single-page applications with dynamic, responsive user interfaces for Lightning Platform apps. It uses JavaScript on the client side and Apex on the server side.
+
+Lightning Component is XML markup, and mixes both static HTML tags with custom Lightning Components tags.  In Lightning Components, a component is a bundle of code. It can include markup and it can also include JavaScript code. Related resources are “auto-wired” to each other, and together they make up the component bundle.  
+
+You can use Lightning Components to create stand-alone apps that are hosted on Salesforce. And you can even create apps that are hosted on other platforms, including embedding them into apps from those platforms.
+
+Build custom user interfaces using your own Lightning components, or those you install from AppExchange, for desktop and mobile devices.
+
+
+## Steps to Configure Lightning Framework
+To use Lightning Components, the Salesforce org needs to have a custom domain configured using My Domain.  My Domain is a way to use Salesforce from a customized URL, rather than a generic Salesforce instance URL.  Once you have a custom domain, you’ll use Salesforce at https://yourDomain.my.salesforce.com/, which is reserved exclusively for your org’s use.
+
+Steps to configure My Domain:
+* From Setup, enter My Domain in the Quick Find box, then select My Domain.
+* Enter the name for your subdomain after https:// and click Check Availability. 
+* Click Register Domain.
 
 
 
