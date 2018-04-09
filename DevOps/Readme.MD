@@ -63,9 +63,9 @@ Production org is a Salesforce instance available to all Salesforce users and it
 You CANNOT develop Apex in your Salesforce production org. Your development work is done in either a sandbox or a Developer Edition org.
 You can deploy Apex using:
 * [Change Sets](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_changesets.htm)
-The Force.com IDE
-The Ant Migration Tool
-SOAP API
+* [The Force.com IDE]()
+* [The Ant Migration Tool]
+* [SOAP API]
 Any deployment of Apex is limited to 5,000 code units of classes and triggers.
 
 Using Change Sets To Deploy Apex
@@ -107,7 +107,16 @@ You can also use the deploy() Metadata API call to deploy your Apex from a devel
   * All Users
   * Records (sample of selected objects)
   * Sandbox Template Support
-
+#### Full Copy 
+* Refresh Interval:  29 Days
+* Capacity:  Same as Source
+* Includes:
+  * Configuration
+  * Apex & Metadata
+  * All Users
+  * Records (all or selected objects)
+  * Sandbox Template Support
+  * History & Chatter Data (optional)
 
 ### Writing Tests
 Before you deploy Apex, the following must be true:
