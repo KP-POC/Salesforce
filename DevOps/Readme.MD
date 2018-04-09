@@ -52,3 +52,26 @@ Salesforce.com projects are equipped with two technologies to support deployment
 | Orchestration | Jenkins | 
 | Monitoring Tool | Sensu | 
 | Hosting Platform | AWS, Bluemix | 
+
+
+### Salesforce Org
+
+#### Production
+
+#### Sandbox
+Sandboxes are special organizations that are used to test changes or new apps without risking damage to your production data or configuration. Sandbox Templates are used to create new Sandboxes containing specific data sets.
+##### Developer
+* Refresh Interval: 1 day
+* Capacity: 200 MB
+* Includes:
+  * Configuration
+  * Apex & Metadat
+  * All users which are in Produciton Org
+##### Developer Pro
+* Refresh Interval: 1 day
+* Capacity: 1 GB
+* Includes:
+  * Configuration
+  * Apex & Metadat
+  * All users which are in Produciton Org
+##### 
