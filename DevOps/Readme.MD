@@ -80,9 +80,8 @@ Sandboxes are special organizations that are used to test changes or new apps wi
 #### Deploying Apex to a Sandbox Organization
 Sandboxes create copies of your Salesforce org in separate environments. Sandboxes are isolated from your production org, so operations that you perform in your sandboxes don’t affect your production org.
 
-You can also use the deploy() Metadata API call to deploy your Apex from a developer organization to a sandbox organization.
 
-Types of Sandboxes:
+### Types of Sandboxes:
 
 #### Developer 
 * Refresh Interval: 1 day
@@ -130,7 +129,12 @@ Note the following.
 * All classes and triggers must compile successfully.
 
 
-
+### Change Sets
+A change set is a means by which one organization can send customizations to another organization.
+* An outbound change set is a change set created in the organization you are logged into and want to send to another organization.
+* An inbound change set is a change set that has been sent from another organization to the organization you are logged into.
+* Change sets can only contain modifications you can make through the setup menu.
+* Change sets may contain customizations to existing components or new components, but can't be used to delete or rename components.
 
 
 
