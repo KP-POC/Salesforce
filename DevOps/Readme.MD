@@ -18,7 +18,7 @@ means that the team ensures every change can be deployed to production but may c
 due to business reasons. In order to do continuous deployment, one must be doing continuous delivery.
 
 ### Scratch Orgs
-Scratch orgs are ephemeral orgs that can be trivially created and destroyed with the force:org:create and
+Scratch orgs are ephemeral orgs that can be created and destroyed with the force:org:create and
 force:org:delete commands.
 
 ### Salesforce DevOps Key Factors
@@ -64,14 +64,14 @@ You CANNOT develop Apex in your Salesforce production org. Your development work
 You can deploy Apex using:
 * [Change Sets](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_changesets.htm)
 * [The Force.com IDE]()
-* [The Ant Migration Tool]
-* [SOAP API]
+* [The Ant Migration Tool]()
+* [SOAP API]()
 Any deployment of Apex is limited to 5,000 code units of classes and triggers.
 
-Using Change Sets To Deploy Apex
-Using the Force.com IDE to Deploy Apex
-Using the Ant Migration Tool
-Using SOAP API to Deploy Apex
+* Using Change Sets To Deploy Apex
+* Using the Force.com IDE to Deploy Apex
+* Using the Ant Migration Tool
+* Using SOAP API to Deploy Apex
 
 
 ### Sandbox
