@@ -128,6 +128,8 @@ Note the following.
 * Every trigger must have some test coverage.
 * All classes and triggers must compile successfully.
 
+#
+Send customizations from one organization to another organization by uploading and deploying change sets. Change sets require a deployment connection between the two organizations.
 
 ### Change Sets
 A change set is a means by which one organization can send customizations to another organization.
@@ -136,7 +138,11 @@ A change set is a means by which one organization can send customizations to ano
 * Change sets can only contain modifications you can make through the setup menu.
 * Change sets may contain customizations to existing components or new components, but can't be used to delete or rename components.
 
-
+### Deployment Connections
+In order for change sets to be sent from one organization to another, a deployment connection is required.
+* A deployment connection is automatically created between all related organizations whenever a sandbox is created.
+* Each organization must be authorized to send and receive change sets.
+* The deployment connection list shows which organizations can upload changes to this organization, and which organizations allow this organization to upload changes to them.
 
 
 
