@@ -33,9 +33,9 @@ force:org:delete commands.
 * Support for Data and Metadata Migration
 * On-premises/Cloud
 
-###
+### Out of the box tools
 
-Out of the box, Salesforce.com projects are equipped with two technologies to support deployments.  
+Salesforce.com projects are equipped with two technologies to support deployments.  
 
-* "Change Set" - a Salesforce.com hosted UI which can migrate individual components from sandbox to sandbox/production.  
+* "Change Set" - a Salesforce.com hosted UI which can migrate individual components from sandbox to QA sandbox to production.  
 * Salesforce Metadata API - which allows specialized ANT scripts to both extract and deploy raw components in the form of XML files.
