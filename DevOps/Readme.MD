@@ -74,4 +74,12 @@ Sandboxes are special organizations that are used to test changes or new apps wi
   * Configuration
   * Apex & Metadat
   * All users which are in Produciton Org
-##### 
+##### Partial Copy
+* Refresh Interval:  5 Days
+* Capacity:  5 GB
+* Includes:
+ * Configuration
+ * Apex & Metadata
+ * All Users
+ * Records (sample of selected objects)
+ * Sandbox Template Support
