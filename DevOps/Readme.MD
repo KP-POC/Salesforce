@@ -82,9 +82,9 @@ Sandboxes create copies of your Salesforce org in separate environments. Sandbox
 
 You can also use the deploy() Metadata API call to deploy your Apex from a developer organization to a sandbox organization.
 
+Types of Sandboxes:
 
-
-#### Developer
+#### Developer 
 * Refresh Interval: 1 day
 * Capacity: 200 MB
 * Includes:
