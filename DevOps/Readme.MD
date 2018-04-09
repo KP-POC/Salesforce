@@ -78,8 +78,8 @@ Sandboxes are special organizations that are used to test changes or new apps wi
 * Refresh Interval:  5 Days
 * Capacity:  5 GB
 * Includes:
- * Configuration
- * Apex & Metadata
- * All Users
- * Records (sample of selected objects)
- * Sandbox Template Support
+  * Configuration
+  * Apex & Metadata
+  * All Users
+  * Records (sample of selected objects)
+  * Sandbox Template Support
