@@ -39,3 +39,16 @@ Salesforce.com projects are equipped with two technologies to support deployment
 
 * "Change Set" - a Salesforce.com hosted UI which can migrate individual components from sandbox to QA sandbox to production.  
 * Salesforce Metadata API - which allows specialized ANT scripts to both extract and deploy raw components in the form of XML files.
+
+### Recommended DevOps Stack for Saleforce
+| Capabilities        | Stack           | Support available for Other Tools  |
+| ------------- |:-------------:| -----:|
+| Release & Deployment | Release Management App | |
+| Deployment      | ANT, Change Set, Metadata API |   $12 |
+| Test Automation | are neat      |    $1 |
+| Code Quality Check |
+| Collaboration & Review |
+| Code Repository | 
+| Orchestration | 
+| Monitoring Tool | 
+| Hosting Platform | AWS, Bluemix
