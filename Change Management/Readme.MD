@@ -14,5 +14,25 @@ Change sets allow you to validate changes before you send them to the target org
 Sandbox templates allow you to pick specific objects and data to copy to your Full or Partial Copy sandbox to control the size and content of each sandbox. Sandbox templates are only available for use with Full or Partial Copy sandboxes.
 When you create a sandbox template, you select the object data (standard and custom) to copy during the creation or refresh of a sandbox.
 
+### Create User Templates
+Refreshing a sandbox creates a new copy of the production organization. This means that all user permissions within the sandbox are copied from production, and that user access or permissions changes you made in the sandbox before it was refreshed must be reapplied. If you have multiple sandboxes, or refresh sandboxes on a regular basis, consider creating a developer user template on your production organization. A developer user template is an abstract user that has permissions required to develop on the sandbox (for example, the “Modify All Data” permission), but is not active on your production organization. After you create or refresh a sandbox, you activate the developer user in the sandbox and assign it to the individual who will be developing there.
 
+To create a developer template:
+* Create a new user on your production organization.
+* Edit the user to give it the necessary permissions.
+* Deactivate the user on the production organization.
+* Create or refresh a sandbox.
+* Activate the user on the sandbox.
+* Optionally change the email address, password, or other environmental settings.
+
+### Manage Sandboxes
+To manage a sandbox, from Setup enter Sandboxes in the Quick Find box, then select Sandboxes. A list of your existing sandboxes displays.
+
+* Click New Sandbox to create a sandbox. Salesforce deactivates the New Sandbox button when an organization reaches its sandbox limit. If necessary, contact Salesforce to order more sandboxes for your organization.
+* Click Sandbox History to see a log of your sandbox refresh history, including when sandboxes were created and who created them.
+* Click Refresh to replace an existing sandbox with a new copy. Salesforce only displays the Refresh link for sandboxes that are eligible for refreshing, which varies for different types of sandboxes. Your existing copy of this sandbox remains available while you wait for the refresh to complete. The refreshed copy is inactive until you activate it.
+* Click Activate to activate a refreshed sandbox. You must activate your refreshed sandbox before you can access it. Salesforce only displays this option for sandboxes that are not activated.
+Activating a refreshed sandbox replaces the existing sandbox with the refreshed version, permanently deleting the existing version and all data in it. Your production organization and its data aren’t affected.
+* Click Del to delete a sandbox.
+Deleting a sandbox permanently erases the sandbox and all data in it, including any outbound change sets that have been uploaded from the sandbox.
 
