@@ -43,7 +43,7 @@ Salesforce.com projects are equipped with two technologies to support deployment
 ### Recommended DevOps Stack for Saleforce
 | Capabilities        | Stack           | 
 | ------------- |:-------------:| 
-| Release & Deployment | Release Management App | 
+| Release & Deployment | Release Management App by Accenture| 
 | Deployment      | ANT, Change Set, Metadata API | 
 | Test Automation | Selenium Automation | 
 | Code Quality Check | Novasuite |
