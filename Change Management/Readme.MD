@@ -48,3 +48,11 @@ Deleting a sandbox permanently erases the sandbox and all data in it, including 
 * There’s no need to download files to a local file system. Other deployment methods require you to work with local files.
 * The change set tool helps you discover and include dependent components. For example, a new custom field can’t be migrated if the custom object it belongs to doesn’t exist in the target org.
 * You define the set of components once. You can reuse the same set of components for another deployment by cloning the change set. Cloning change sets is helpful during the iterative phases of a project.
+
+* [SFDC - Delivery Pattern](https://alm.accenture.com/wiki/pages/viewpage.action?pageId=246648711#SFDC-DeliveryPattern-dp-03)
+* [DevOps Week](https://kxdocuments.accenture.com/contribution/5abe88cb-96ad-4591-aee0-150a3e24231e?referrer=https://search.accenture.com)
+* [Salesforce and DevOps](https://kxdocuments.accenture.com/contribution/ca8f5ddb-6b1b-4608-ac55-d4f24bb834da?referrer=https://search.accenture.com)
+* [PLETHORA OF TOOLS THAT ARE AVAILABLE](file:///Users/vukdukic/Downloads/PoV%20-%20Salesforce%20and%20DevOps%20-%20Cloud%20First.pdf)
+* [Enterprise Architecture: Single-org versus Multi-org Strategy](https://developer.salesforce.com/blogs/developer-relations/2014/10/enterprise-architecture-multi-org-strategy.html)
+* [Using ADOP](https://kxdocuments.accenture.com/contribution/ba4dc3cc-4551-40a6-8cbf-c11689b5dc6c?referrer=https://search.accenture.com)
+* [Dreamhouse App](https://github.com/dreamhouseapp/dreamhouse-sfdx/blob/master/force-app/main/default/classes/EinsteinVisionController.cls)
