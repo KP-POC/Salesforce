@@ -6,6 +6,7 @@ esb-id: 110013865747
 esb-idtype: NCALMRN
 Content-Length: 650
 Host: service-bus-dev.kp.org:2008
+Host: apiservice-bus-dev.kp.org:2005
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
  
