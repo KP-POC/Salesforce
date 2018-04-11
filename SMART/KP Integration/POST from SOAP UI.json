@@ -1,0 +1,73 @@
+POST https://service-bus-dev.kp.org:2008/service/ptnt_care/ptnt_care_sup/KPHC/KPHCLSPApp/v1?esb-region=NCAL&esb-envlbl=dev3 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+esb-urn: urn:kp:hcotca2
+esb-id: 110013865747
+esb-idtype: NCALMRN
+Content-Length: 650
+Host: service-bus-dev.kp.org:2008
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+ 
+{
+
+                   "ServiceMetadataRequest": {
+
+      "regionCode": {
+
+        "code": "SCA"
+
+      },
+
+      "systemPropertyList": {
+         "entry": [
+
+            {
+
+               "value": "110013865747",
+               "name": "MRN"
+
+            },
+
+            {
+
+               "value": "NCALMRN",
+               "name": "MRNType"
+
+            }
+
+         ],
+
+         "systemName": "EPIC"
+
+      },
+
+      "requestingSystemName": "CHR"
+
+   },
+
+                "homeInfo":"",
+                "consumerID":"123",
+                "integrationID":"123-1234567",
+                "reqData":[{
+
+                                "key":"ID",
+                                "value":"110013865747"
+
+                },
+
+                {
+
+                                "key":"IDType",
+                                "value":"NCALMRN"
+
+                },
+
+                {
+
+                                "key":"contactIDList",
+                                "value":"86220791"
+
+                }]
+
+}
