@@ -57,3 +57,5 @@ Deleting a sandbox permanently erases the sandbox and all data in it, including 
 * [Using ADOP](https://kxdocuments.accenture.com/contribution/ba4dc3cc-4551-40a6-8cbf-c11689b5dc6c?referrer=https://search.accenture.com)
 * [Dreamhouse App](https://github.com/dreamhouseapp/dreamhouse-sfdx/blob/master/force-app/main/default/classes/EinsteinVisionController.cls)
 * [Change Management](https://trailhead.salesforce.com/modules/app_deployment/units/app_deployment_governance)
+* [Monitor Deployments](https://help.salesforce.com/articleView?id=deploy_monitoring.htm&type=5)
+* [Development Lifecycle Guide](https://resources.docs.salesforce.com/212/latest/en-us/sfdc/pdf/salesforce_development_lifecycle.pdf)
