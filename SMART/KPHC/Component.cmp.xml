@@ -1,0 +1,28 @@
+<!-- -->
+<aura:component controller="postCalloutKP" implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+
+<!--store patient information -->
+<aura:attribute name="KPdata" type="postCalloutKP" />
+<!-- <aura:attribute name="patient" type="Object" default='{"ServiceMetadataRequest": {"regionCode": {"code": "SCA"},"systemPropertyList": {"entry": [{"value": "110013865747","name": "MRN"},{"value": "NCALMRN","name": "MRNType"}],"systemName": "EPIC"},"requestingSystemName": "CHR"},"homeInfo":"","consumerID":"123","integrationID":"123-1234567","reqData":[{"key":"ID","value":"110013865747"},{"key":"IDType","value":"NCALMRN"},{"key":"contactIDList","value":"86220791"}]}'/> -->
+<!--Add an attribute to store the results of the callback -->
+<aura:attribute name="patientDataList" type="Object" />
+<lightning:button label="Get Data" onclick="{!c.handleClick}"/>
+<!--aura handler to call an initialization function when the component loads -->
+<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+<div class="slds">
+  <div class="slds-box" aura:id="main">
+    <div aura:id="panelList">
+      <header>
+        <h2 class="slds-text-heading--small slds-m-bottom--small">Patient Data</h2>
+      </header>
+      <div aura:id="scrollableArea">
+        <ul class="slds-list--vertical slds-has-dividers--top-space">
+    		<aura:iteration items="{!v.patientDataList}" var="item" indexVar="i">
+    		</aura:iteration>
+		</ul>
+      </div>
+    </div>
+  </div>
+</div>
+</aura:component>
