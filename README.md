@@ -6,4 +6,3 @@
 * [Consent to Surgery or Special
 Procedure](https://www.calhospital.org/sites/main/files/file-attachments/Form1-1.pdf)
 * https://docs.google.com/document/d/1YYwUtTZxqEAgxHn7Vzz4_MtPR-aawIX1uIuLEPpjxKY/edit 
-* 
